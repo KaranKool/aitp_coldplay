@@ -3,9 +3,6 @@
 import os
 import sys
 
-# Quietly install required libraries
-!{sys.executable} -m pip install -q supabase gradio nltk plotly pandas
-
 # 2. IMPORTS
 import gradio as gr
 import pandas as pd
